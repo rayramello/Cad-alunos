@@ -1,0 +1,129 @@
+/* Container geral */
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9faff; /* fundo azul pastel clarinho */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(100, 110, 140, 0.1);
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #4a4a6a;
+  text-align: center;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #596dff; /* azul pastel mais forte */
+  margin-bottom: 1rem;
+}
+
+/* Formulário */
+.aluno-form {
+  margin-bottom: 2rem;
+}
+
+.aluno-form div {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #3c3f58;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  border: 1.5px solid #c2c8ff;
+  border-radius: 6px;
+  background-color: #e7ecff;
+  color: #3c3f58;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #596dff;
+  background-color: #d7dfff;
+  box-shadow: 0 0 8px #596dff66;
+}
+
+/* Botão */
+button {
+  background-color: #596dff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 0.75em 1.6em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #4759d6;
+}
+
+/* Mensagens */
+.mensagem {
+  margin-bottom: 1.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.mensagem.sucesso {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border: 1.5px solid #badbcc;
+}
+
+.mensagem.erro {
+  background-color: #f8d7da;
+  color: #842029;
+  border: 1.5px solid #f5c2c7;
+}
+
+/* Lista de alunos */
+.lista-alunos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-alunos li {
+  background-color: #eef2ff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3c3f58;
+  box-shadow: 0 1px 5px rgba(100, 110, 140, 0.1);
+}
+
+/* Botão de remover */
+.botao-deletar {
+  background-color: #ff6b6b;
+  border: none;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.botao-deletar:hover {
+  background-color: #d94f4f;
+}
